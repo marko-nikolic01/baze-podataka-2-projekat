@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_1" directorySegmentName="seg_0" id="2A3942D6-BBFC-8D5C-0199-BC4C1E976589">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:57:39 UTC</createdTime>
+<ownerDesignName>music_manager</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>DA4623B9-5A12-D35E-22AB-04D484EA7949</sourceEntity>
+<targetEntity>F65063E4-5701-1D14-B345-B5ABA55F2D7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

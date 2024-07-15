@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9670F86C-B5D0-829A-C223-BD1D714045B7" name="Film">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:19:42 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdF" id="EF47620F-B1E6-F9FD-DFCD-BDADC37CB2A5">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:19:47 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazF" id="8DF8D552-28C9-5E31-15AE-4A6C0D4C11A5">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:20:08 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OpisF" id="9DC3267E-A96A-5FFB-9EA2-A7234B12CF65">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:20:27 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMDBRatF" id="946135B3-7C02-BD6A-55AE-135C3371314D">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:20:50 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZanr" id="760D4E99-A4ED-0B52-4B26-FF3514985F83">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:24:59 UTC</createdTime>
+<generatorID>1984E44F-1306-C8DA-CDEA-BC4FA138E7A1</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>6218B01D-A51C-8CA1-7633-1F75EFE63480</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TrajF" id="3139736D-D7A1-1626-DB34-018592A4CFC0">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:51:17 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DD9CE85-61B2-AB50-6585-2C556132CD45" name="Film PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:20:04 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF47620F-B1E6-F9FD-DFCD-BDADC37CB2A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

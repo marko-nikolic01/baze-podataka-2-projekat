@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AACEDD1D-F8E0-0590-0A5F-07AA8FEB27B6" containerWithKeyObject="F87B275D-EFA8-6056-71E2-01039AC14F0C" localFKIndex="BFD6D7B1-26E4-3CDD-A061-1160D284B4F9" name="Karta_Projekcija_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>7B6915B0-C96A-5667-896A-60EB7BDE1923</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<referredTableLongName>Projekcija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0CC75509-E75E-48C2-9EC2-93FACFD2338B</referredTableID>
+<keyObject>A276ACFC-5942-791D-7C8E-457CEB6E61B5</keyObject>
+<referredKeyID>A276ACFC-5942-791D-7C8E-457CEB6E61B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DatVremProj,IdS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

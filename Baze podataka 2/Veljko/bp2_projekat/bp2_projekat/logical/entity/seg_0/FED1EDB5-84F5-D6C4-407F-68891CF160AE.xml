@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FED1EDB5-84F5-D6C4-407F-68891CF160AE" name="Gost">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:15:19 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdG" id="999CEB39-3EB1-4A92-1821-14ED0726494C">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:15:24 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ImeG" id="0A577187-D9E8-492C-4A8E-20F0A9268425">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:15:38 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrezimeG" id="AFF62608-E85C-7164-ECBC-D213199BC4A1">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-03 15:24:24 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F05F4094-6F9E-967E-C362-051075A51A7A" name="Gost PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:15:33 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>999CEB39-3EB1-4A92-1821-14ED0726494C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

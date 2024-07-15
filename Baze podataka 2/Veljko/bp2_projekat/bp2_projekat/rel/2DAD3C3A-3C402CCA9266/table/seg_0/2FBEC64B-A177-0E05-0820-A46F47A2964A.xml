@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FBEC64B-A177-0E05-0820-A46F47A2964A" name="Poziva">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>5FD301AE-6EBD-0910-AE27-D1FA65FF568A</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<ordsAlias>pozivnica</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Poziva" id="18EA673E-DD86-C77A-2D37-18CF631399E4">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>136BEE55-66D3-951D-D932-9920DFE20343</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5489AD3-8C99-F850-DE0A-5DE4FEE0BEDF" referredColumn="0482D0C8-651A-A13A-5F4D-423167B17D29"/>
+</associations>
+</Column>
+<Column name="Pozvan" id="00F88A4B-3FC3-3EB0-9A25-98256E6F265A">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>337409BC-0204-EF6A-C6F6-7FF1409FB3E7</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DBAD557-AE10-111E-1383-864841BEA76C" referredColumn="0482D0C8-651A-A13A-5F4D-423167B17D29"/>
+</associations>
+</Column>
+<Column name="IdS" id="EB1D0025-9F08-537D-0724-954E61D23752">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>78C42343-6F3D-9002-2DDF-65F24827D3C8</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFB8EEBF-C0D2-56F1-5924-6341C958C35C" referredColumn="4607864D-5885-5325-BA87-3C5D7AD36E92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="523A471A-1CEE-3EC9-2468-5EC754FCDE90" name="Pozivnica_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>555FAACE-32A5-6667-70C5-0EABFD581C43</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00F88A4B-3FC3-3EB0-9A25-98256E6F265A"/>
+<colUsage columnID="18EA673E-DD86-C77A-2D37-18CF631399E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD9B50E5-DE4F-712F-5BA0-18AE2216FD5D" name="Pozivnica_Gost_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>32E4AC64-93AE-B799-3093-2C262933627E</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18EA673E-DD86-C77A-2D37-18CF631399E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="716A08F6-7A87-0D82-03A1-452B010FD588" name="Pozivnica_Online_svirka_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>BDCC3EC7-0587-A2DF-8658-D205C3423D15</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB1D0025-9F08-537D-0724-954E61D23752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FD48C7B-4809-0336-051E-A346F29701B0" name="Pozivnica_Gost_FKv2">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>B81FCAE9-C75C-20DF-2060-49597C89AF4E</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00F88A4B-3FC3-3EB0-9A25-98256E6F265A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

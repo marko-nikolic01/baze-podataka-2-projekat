@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CC75509-E75E-48C2-9EC2-93FACFD2338B" name="Projekcija">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>CB148B8C-B042-72C8-A6EE-56DB4867BEA4</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DatVremProj" id="04DDA58B-C3AC-6981-17B0-FD90B28E2032">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>1874F799-6751-72C5-889F-114EB55DBE80</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naoc3DProj" id="060E4DB2-F170-95CB-A610-F21D0440EFD7">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>92CE37B3-8483-A7AC-FB8A-60FF514EA255</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdS" id="59ACDF8C-37E0-516A-9C3D-D8E6BA097F1F">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>56D23DEA-D7C2-F1A3-7F46-94180297734E</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18A978CB-08D9-8C0D-3CE1-494EE54851C8" referredColumn="C3327860-406C-BDF3-FAC8-7B9CFF1F11E4"/>
+</associations>
+</Column>
+<Column name="IdF" id="1A4841E9-B72E-6B56-44F1-DB0CF74ACBDA">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>DCBE6E00-A109-9963-14F1-EE25FC38D336</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA033D03-0D8E-5CA3-1148-92E866FE0C65" referredColumn="60184F69-08E6-F1A9-0365-41106F1AD40B"/>
+</associations>
+</Column>
+<Column name="IdLic" id="8F95D6EF-AF79-5200-4113-98DBA47EBD18">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>87CB1F96-8121-B930-A862-1C6644957F9D</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA033D03-0D8E-5CA3-1148-92E866FE0C65" referredColumn="CB50C65A-DEDF-D999-2B0D-41403804921E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A276ACFC-5942-791D-7C8E-457CEB6E61B5" name="Projekcija_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>F04FF268-9C65-97B3-4854-ECD64786F7DE</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04DDA58B-C3AC-6981-17B0-FD90B28E2032"/>
+<colUsage columnID="59ACDF8C-37E0-516A-9C3D-D8E6BA097F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC9D0564-4933-2199-D262-4838B686367F" name="Projekcija_Sala_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>1DF832A0-4113-21F7-C3FB-79FFBCFF2B47</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59ACDF8C-37E0-516A-9C3D-D8E6BA097F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56D150F0-ED25-BD50-F9C3-696D671BFBA8" name="Projekcija_Licencira_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>47F75295-7CEF-D6DD-DB09-FC6982A6C5FC</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A4841E9-B72E-6B56-44F1-DB0CF74ACBDA"/>
+<colUsage columnID="8F95D6EF-AF79-5200-4113-98DBA47EBD18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEB89294-C67C-EE91-7DD6-F133571AA3FB" name="Svirka">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>DA4623B9-5A12-D35E-22AB-04D484EA7949</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdS" id="6DE909FA-DA48-B2DB-B070-1AE6C2F6BEF2">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>4E8A167A-6A72-C9FF-55D7-ACA0983199D8</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatVrePocS" id="DB849225-EC9A-DF51-0969-CD3CADD6E48C">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>566C2418-B7B4-1851-B6D5-38EA4D7803E5</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TrajanjeS" id="2F5DF73A-C69B-974D-F2D3-0422FEE51A15">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>27A93B32-A0F6-D64E-A9CE-F47B1BA22B06</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipS" id="CFB72F3C-10CF-B2FB-C7C0-B2669641DC64">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>A4DD236E-AF9A-5C27-133B-E7162739ED49</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<constraintName>CH_INH_Svirka</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<domain>A289EAA2-4B3A-7742-4E54-D67DC6F43C57</domain>
+<listOfValues>
+<valueDef value="Online_svirka" description="entity Online svirka"/>
+<valueDef value="Svirka" description="entity Svirka"/>
+<valueDef value="Uzivo_svirka" description="entity Uzivo svirka"/>
+</listOfValues>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02CE72D0-56C1-73DC-9F9B-2C8E07C73D39" name="Svirka_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>CAA6045C-5C55-8740-B8F6-C4AC5DAD3276</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE909FA-DA48-B2DB-B070-1AE6C2F6BEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

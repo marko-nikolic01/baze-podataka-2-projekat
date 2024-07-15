@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F87B275D-EFA8-6056-71E2-01039AC14F0C" name="Karta">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>99797D27-1700-642F-8C05-2B9B39DAE33D</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdK" id="96B61813-EE4B-45C3-7AF6-A4AF34AC48EA">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>C8C51F44-5D80-6F4C-4E62-F17E4894BD58</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RedK" id="68F638BB-3A14-59D4-4A7A-95FA39852A86">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>FE2DD4AB-BCE0-35D3-1483-2C54954CF55E</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BrMesK" id="33092A31-1B1B-018F-9366-6A66202BAE62">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>BA2181FD-BBEE-8D72-ECB6-B3F998DD8E89</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CenaK" id="0EFD1776-C6FE-8162-5091-E96E36E5186A">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>4789FE66-0778-0705-46B8-B2CD85EB0590</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdP" id="207545A1-DF27-7BD9-5FD5-3FF313DBC8B5">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>3D09C5C5-E01D-092B-F3A3-5167D76848C2</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23CB0EA0-A883-D5C8-DDAB-9CB16FCD5BBB" referredColumn="5E99ABF4-A055-F131-D310-F0704173A3D9"/>
+</associations>
+</Column>
+<Column name="DatVremProj" id="8E9D6FE7-8849-4267-A771-90977E74CC20">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>9D2F2B35-D641-D38C-A64D-8A1278E9C7A2</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AACEDD1D-F8E0-0590-0A5F-07AA8FEB27B6" referredColumn="04DDA58B-C3AC-6981-17B0-FD90B28E2032"/>
+</associations>
+</Column>
+<Column name="IdS" id="E1CB6CE3-E96A-C5E3-0C8A-047F79C9C8AE">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>82324051-74E7-257E-6BDB-9D0C9D23E004</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AACEDD1D-F8E0-0590-0A5F-07AA8FEB27B6" referredColumn="59ACDF8C-37E0-516A-9C3D-D8E6BA097F1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0664A7D4-2136-6F12-7B37-F72E58A38E7E" name="Karta_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>B14E174E-CC28-FF89-DC4E-83EA2820CDE0</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96B61813-EE4B-45C3-7AF6-A4AF34AC48EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFD6D7B1-26E4-3CDD-A061-1160D284B4F9" name="Karta_Projekcija_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>7B6915B0-C96A-5667-896A-60EB7BDE1923</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E9D6FE7-8849-4267-A771-90977E74CC20"/>
+<colUsage columnID="E1CB6CE3-E96A-C5E3-0C8A-047F79C9C8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="125CF849-4957-A7F3-0A0D-0303F700F1E4" name="Karta_Posetilac_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>D6E9C8B0-B2F7-69C4-BB65-F892174B30DC</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="207545A1-DF27-7BD9-5FD5-3FF313DBC8B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

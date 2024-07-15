@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Svira se" directorySegmentName="seg_0" id="D492CA15-74EF-3B1B-3545-E0EF6429D0A0">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:07:43 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2FF8C5E6-4C7C-2BB7-169F-74399A82AD36</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DA4623B9-5A12-D35E-22AB-04D484EA7949</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

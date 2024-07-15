@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FF8C5E6-4C7C-2BB7-169F-74399A82AD36" name="Repertoar">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:12:30 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdR" id="BC26809B-F45F-92B8-F2D0-FB2A7FA9E847">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:12:39 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazR" id="78B5A934-EA14-16AE-3D6B-C675274576B0">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:12:48 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="11570DE6-4742-8B11-113E-709EBA0A1A8F" name="Repertoar PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:12:46 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC26809B-F45F-92B8-F2D0-FB2A7FA9E847</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B731F5BB-66C9-3B34-270D-2EDA5C000218" name="Lokal">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:38:08 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdL" id="56E9E929-586A-026E-825D-D6FA56840370">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:38:12 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazL" id="C6FC90F8-19A1-BD72-5460-EAD85A9EE5D7">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:39:35 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdA" id="762FE1BB-4A38-84CE-BFD3-03971B35BE1D">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:24:48 UTC</createdTime>
+<generatorID>33A02A16-F4FD-A9A2-7FEE-159AF31F169D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<referedAttribute>12A20DC2-3215-62F5-B73E-1D1D8418FC94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdD" id="2F6B253C-E9DC-4062-9F40-E5B1120B12E0">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-03 15:46:33 UTC</createdTime>
+<generatorID>33A02A16-F4FD-A9A2-7FEE-159AF31F169D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<referedAttribute>CB2A8992-12D7-C648-58EF-B35AAEB349E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB0E44B5-4EEB-2891-2F38-265C44C9364D" name="Lokal PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:39:22 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56E9E929-586A-026E-825D-D6FA56840370</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23CB0EA0-A883-D5C8-DDAB-9CB16FCD5BBB" containerWithKeyObject="F87B275D-EFA8-6056-71E2-01039AC14F0C" localFKIndex="125CF849-4957-A7F3-0A0D-0303F700F1E4" name="Karta_Posetilac_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>D6E9C8B0-B2F7-69C4-BB65-F892174B30DC</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<referredTableLongName>Posetilac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A292FB61-78D5-2AD7-A6EF-E11F0DAFA87F</referredTableID>
+<keyObject>B39805BE-E9EA-B756-A9EB-E7DD5757744F</keyObject>
+<referredKeyID>B39805BE-E9EA-B756-A9EB-E7DD5757744F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

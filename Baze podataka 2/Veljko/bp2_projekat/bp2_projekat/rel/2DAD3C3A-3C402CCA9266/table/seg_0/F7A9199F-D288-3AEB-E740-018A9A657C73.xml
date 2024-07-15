@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7A9199F-D288-3AEB-E740-018A9A657C73" name="Svira_se">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="F5343B8D-C250-6487-2AB2-5E897D4C9206">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1818A09-8F83-C933-3C99-CF71BA98480A" referredColumn="E3D6749A-9831-2F8D-DF09-BFEEA12E0BEA"/>
+</associations>
+</Column>
+<Column name="IdS" id="CA639614-AF42-3C6A-2DBF-746B35080EA1">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ECA6664-6878-47B7-FD7B-11B4AD25DA9B" referredColumn="6DE909FA-DA48-B2DB-B070-1AE6C2F6BEF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66B0B1E8-98E6-CD02-C355-3682BB5BC30C" name="Svira_se_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5343B8D-C250-6487-2AB2-5E897D4C9206"/>
+<colUsage columnID="CA639614-AF42-3C6A-2DBF-746B35080EA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A5A0CDD-FA98-C528-7175-BE2BFDE47916" name="Svira_se_Repertoar_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>D492CA15-74EF-3B1B-3545-E0EF6429D0A0</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5343B8D-C250-6487-2AB2-5E897D4C9206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B09F8C75-E2C5-DF6A-543A-E0E9036EA109" name="Svira_se_Svirka_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>D492CA15-74EF-3B1B-3545-E0EF6429D0A0</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA639614-AF42-3C6A-2DBF-746B35080EA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

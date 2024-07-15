@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Narucuje" directorySegmentName="seg_0" id="1EBDFC81-2668-A7C0-EEAF-A394E4E62436">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-03 15:37:36 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>388B6C07-037F-97EE-41B2-FBF26CA9E7B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B63F9B6-1192-C443-F166-DFA271097EBA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A76ACE06-FAA4-42E1-A16C-930149245505</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA2B6B3E-C7FD-BBB5-A546-62DA0C4F6C91" name="GodisnjiOdmor">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:08:07 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdGodOdmr" id="D2B19A5A-0A93-F93D-9302-3412A0951FA2">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:08:22 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatGodOdmr" id="1030DAC9-A7DA-CF05-6D5A-5F999486BF5E">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:08:34 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZap" id="3AD7EF05-B037-06F3-F79D-7448112C0312">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:11:34 UTC</createdTime>
+<generatorID>EBB9155B-2F8D-5D72-AF60-8DE63E3E40D2</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>0F4BF644-3514-A6F6-EA49-97FC5A0EE559</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FA50E85-129A-3E6A-8D81-F06BCACC5048" name="GodisnjiOdmor PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:08:33 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2B19A5A-0A93-F93D-9302-3412A0951FA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

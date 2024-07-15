@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Poziva na svirku" directorySegmentName="seg_0" id="BDCC3EC7-0587-A2DF-8658-D205C3423D15">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:28:18 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>CAA6045C-5C55-8740-B8F6-C4AC5DAD3276</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F65063E4-5701-1D14-B345-B5ABA55F2D7C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5FD301AE-6EBD-0910-AE27-D1FA65FF568A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

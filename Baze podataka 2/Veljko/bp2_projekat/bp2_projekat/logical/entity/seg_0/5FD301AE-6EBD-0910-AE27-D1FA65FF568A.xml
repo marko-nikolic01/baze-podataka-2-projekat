@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FD301AE-6EBD-0910-AE27-D1FA65FF568A" name="Poziva">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:26:38 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Poziva" id="136BEE55-66D3-951D-D932-9920DFE20343">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:27:02 UTC</createdTime>
+<generatorID>32E4AC64-93AE-B799-3093-2C262933627E</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<referedAttribute>999CEB39-3EB1-4A92-1821-14ED0726494C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pozvan" id="337409BC-0204-EF6A-C6F6-7FF1409FB3E7">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:27:28 UTC</createdTime>
+<generatorID>B81FCAE9-C75C-20DF-2060-49597C89AF4E</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<referedAttribute>999CEB39-3EB1-4A92-1821-14ED0726494C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdS" id="78C42343-6F3D-9002-2DDF-65F24827D3C8">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:28:18 UTC</createdTime>
+<generatorID>BDCC3EC7-0587-A2DF-8658-D205C3423D15</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<referedAttribute>4E8A167A-6A72-C9FF-55D7-ACA0983199D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="555FAACE-32A5-6667-70C5-0EABFD581C43" name="Pozivnica PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-03 15:55:12 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>337409BC-0204-EF6A-C6F6-7FF1409FB3E7</attributeRef>
+<attributeRef>136BEE55-66D3-951D-D932-9920DFE20343</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

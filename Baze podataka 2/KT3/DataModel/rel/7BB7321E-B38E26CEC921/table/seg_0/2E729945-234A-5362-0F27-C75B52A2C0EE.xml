@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E729945-234A-5362-0F27-C75B52A2C0EE" name="Film">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>9670F86C-B5D0-829A-C223-BD1D714045B7</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdF" id="A33E4A39-4003-E2C6-60BE-5B1903A0641C">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>EF47620F-B1E6-F9FD-DFCD-BDADC37CB2A5</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazF" id="30FED9BB-4BEA-2387-E874-DBFEC44EF097">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>8DF8D552-28C9-5E31-15AE-4A6C0D4C11A5</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpisF" id="AA941485-7A92-A1A9-A676-9692763C7A56">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>9DC3267E-A96A-5FFB-9EA2-A7234B12CF65</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMDBRatF" id="6BBD6FA5-6ED3-AADC-C03D-7431CB5E4CA5">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>946135B3-7C02-BD6A-55AE-135C3371314D</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdZanr" id="4F04DE30-8B8B-BA48-B40C-DBBCE2A299AE">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>760D4E99-A4ED-0B52-4B26-FF3514985F83</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74211624-12A9-A339-F61E-CC0174C4F479" referredColumn="A07E03AA-C1AB-F76C-480A-589B25C3FEEE"/>
+</associations>
+</Column>
+<Column name="TrajF" id="ED634C56-33D7-287D-A3C3-313051631381">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:51:46 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53BDFCB6-8E12-6FC0-4EA0-4C19233C7918" name="Film_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>4DD9CE85-61B2-AB50-6585-2C556132CD45</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A33E4A39-4003-E2C6-60BE-5B1903A0641C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9A661C9-A968-4B64-A008-3B43A8726D30" name="Film_Zanr_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>1984E44F-1306-C8DA-CDEA-BC4FA138E7A1</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F04DE30-8B8B-BA48-B40C-DBBCE2A299AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

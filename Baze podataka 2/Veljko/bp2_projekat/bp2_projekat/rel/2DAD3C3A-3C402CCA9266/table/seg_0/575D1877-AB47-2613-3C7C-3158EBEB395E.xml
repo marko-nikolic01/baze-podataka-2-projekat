@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="575D1877-AB47-2613-3C7C-3158EBEB395E" name="Narudzbina">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>A76ACE06-FAA4-42E1-A16C-930149245505</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdN" id="B2B53ABE-6B80-C6CC-7F61-2B0B4FE067D1">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>47726C37-8209-4C7D-0A92-20C84296E349</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BaksisN" id="0887A76E-8A3F-4CD3-1895-125F931BCE75">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>FDBD543C-A9A7-6BFA-F075-02CEF8B3039D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdP" id="CE4743A6-088C-3E1E-ED93-ABFA1D8F6E38">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>2EDB6260-F83F-ADC4-79B1-7D66D23AD2E7</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B9FC1E8-5AD0-B004-2C63-7F0C45925E55" referredColumn="496414CD-9995-88AE-163B-4CA091E2A71E"/>
+</associations>
+</Column>
+<Column name="IdG" id="9B0EB910-E1F2-B60A-AB3C-88F07FD11982">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>B43A5B20-8FB1-B80E-3D32-B43DF840908D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8582750-DA20-809B-289A-3143F5B51B8B" referredColumn="3FF59AA9-89B4-B7A9-92B7-ECFDCDCD446B"/>
+</associations>
+</Column>
+<Column name="IdS" id="269ABA64-D917-987B-F277-6CEB2411B0D4">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>1B33F2EF-999A-4816-1A71-3F8E82A8F96C</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8582750-DA20-809B-289A-3143F5B51B8B" referredColumn="BC5682C3-D79C-C9CF-BBE5-DC53185C9CC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCDBCA4F-1833-F96E-B475-43E5464330F9" name="Narudzbina_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>41D8364A-60EA-C6F9-EDA7-374761728994</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2B53ABE-6B80-C6CC-7F61-2B0B4FE067D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35CC81AA-B7DD-6964-A0FA-8C97A994A31E" name="Narudzbina_Pesma_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>6046C530-28BA-CABD-E9D9-E336AC1C6F5B</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE4743A6-088C-3E1E-ED93-ABFA1D8F6E38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58F78852-1F5A-1CCE-5979-0A7FCE4BED91" name="Narudzbina_Prisustvuje_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>1EBDFC81-2668-A7C0-EEAF-A394E4E62436</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B0EB910-E1F2-B60A-AB3C-88F07FD11982"/>
+<colUsage columnID="269ABA64-D917-987B-F277-6CEB2411B0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

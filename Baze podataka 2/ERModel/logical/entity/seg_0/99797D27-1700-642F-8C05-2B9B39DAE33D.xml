@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99797D27-1700-642F-8C05-2B9B39DAE33D" name="Karta">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:58:40 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdK" id="C8C51F44-5D80-6F4C-4E62-F17E4894BD58">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:58:45 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RedK" id="FE2DD4AB-BCE0-35D3-1483-2C54954CF55E">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:59:01 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BrMesK" id="BA2181FD-BBEE-8D72-ECB6-B3F998DD8E89">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:59:17 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CenaK" id="4789FE66-0778-0705-46B8-B2CD85EB0590">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:59:31 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdP" id="3D09C5C5-E01D-092B-F3A3-5167D76848C2">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:00:08 UTC</createdTime>
+<generatorID>D6E9C8B0-B2F7-69C4-BB65-F892174B30DC</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>86369A2D-E6ED-338D-3289-DF97AAB0AAC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatVremProj" id="9D2F2B35-D641-D38C-A64D-8A1278E9C7A2">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:00:24 UTC</createdTime>
+<generatorID>7B6915B0-C96A-5667-896A-60EB7BDE1923</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>1874F799-6751-72C5-889F-114EB55DBE80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdS" id="82324051-74E7-257E-6BDB-9D0C9D23E004">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:00:24 UTC</createdTime>
+<generatorID>7B6915B0-C96A-5667-896A-60EB7BDE1923</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>56D23DEA-D7C2-F1A3-7F46-94180297734E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B14E174E-CC28-FF89-DC4E-83EA2820CDE0" name="Karta PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:59:00 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8C51F44-5D80-6F4C-4E62-F17E4894BD58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

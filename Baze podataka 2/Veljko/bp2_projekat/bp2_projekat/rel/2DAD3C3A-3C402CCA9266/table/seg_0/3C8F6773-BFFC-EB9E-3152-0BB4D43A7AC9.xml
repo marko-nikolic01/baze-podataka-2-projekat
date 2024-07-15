@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C8F6773-BFFC-EB9E-3152-0BB4D43A7AC9" name="Uzivo_svirka">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>BA1BD491-FC35-41A0-5A41-6E085A544772</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdS" id="EB0E94F7-FF6A-FD85-4B82-576118B1FB62">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>4E8A167A-6A72-C9FF-55D7-ACA0983199D8</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="096B4220-21AF-DD20-7D1D-E2D1A0DB4033" referredColumn="6DE909FA-DA48-B2DB-B070-1AE6C2F6BEF2"/>
+</associations>
+</Column>
+<Column name="IdG" id="8BECB968-994F-2A7B-E463-264DC51D18F0">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>FBA1A1CB-6074-13BE-E90A-022462FD2ABF</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64CEDC24-6E8F-51E0-C78A-5EA5E628AF8B" referredColumn="0482D0C8-651A-A13A-5F4D-423167B17D29"/>
+</associations>
+</Column>
+<Column name="IdL" id="0BC3D529-C088-2457-3836-AD40EF823A7E">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>376A7830-12F9-7565-5E0B-4797A075483E</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42F7490A-6946-8F6D-7461-254C09AF71A7" referredColumn="EB243A9E-E9BB-A45E-0ED4-9EC2B1EF9277"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A769968C-6CC3-5447-57EA-182304C4B86E" name="Uzivo_svirka_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>CAA6045C-5C55-8740-B8F6-C4AC5DAD3276</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB0E94F7-FF6A-FD85-4B82-576118B1FB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B35CB616-48CA-66AF-56D8-DAF590A02F3B" name="Uzivo_svirka_Svirka_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>4C517979-05B7-0C3C-396D-93F37A13B41F</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB0E94F7-FF6A-FD85-4B82-576118B1FB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47161005-45B6-E584-6DF0-1B4878D4BEBA" name="Uzivo_svirka_Lokal_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>A1A8D5F8-931A-EB0D-008C-B19D2246F4D5</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BC3D529-C088-2457-3836-AD40EF823A7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF04F7D0-C44A-FF1D-7A17-8C93B51C1E68" name="Uzivo_svirka_Gost_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>EE7D2CDA-E640-EBF6-F7E5-3924584E0C1D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BECB968-994F-2A7B-E463-264DC51D18F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

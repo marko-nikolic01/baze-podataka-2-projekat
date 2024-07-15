@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Poreklo" directorySegmentName="seg_0" id="F9EB3968-6A94-AD24-2D4C-FA0E80CC76AA">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 14:59:03 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>D9ACFF95-E11F-47BA-F32A-6245A090C7F2</sourcePk>
+<targetPk>CAB2C682-8B88-795D-CA28-19CCAA8AA963</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>495C6EAC-E596-E73E-E9CC-6E1DF5AA347B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>898C4746-7034-1ED7-5ACC-EBBDA1C2E8BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

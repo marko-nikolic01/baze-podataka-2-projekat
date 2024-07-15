@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FC85333-D6B7-F378-0CC8-E2C788131FB4" name="Lokal">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>B731F5BB-66C9-3B34-270D-2EDA5C000218</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdL" id="EB243A9E-E9BB-A45E-0ED4-9EC2B1EF9277">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>56E9E929-586A-026E-825D-D6FA56840370</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazL" id="D0FD4F1E-77C3-8ABF-C78F-56038FFFD454">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>C6FC90F8-19A1-BD72-5460-EAD85A9EE5D7</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdA" id="AF66B463-9AE2-B8AC-D264-5D7D4CA4D781">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>762FE1BB-4A38-84CE-BFD3-03971B35BE1D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DC8D93B-338E-0291-4C3D-460CC3E73DF2" referredColumn="370332B7-20A5-01AB-F069-4F473AFAF2CB"/>
+</associations>
+</Column>
+<Column name="IdD" id="1DED3C3F-D195-0D15-15EB-6532B6A639D5">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>2F6B253C-E9DC-4062-9F40-E5B1120B12E0</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DC8D93B-338E-0291-4C3D-460CC3E73DF2" referredColumn="F3D5E3E2-C878-E8F0-2D40-A2CCE27C6225"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD7A7F04-4255-C529-29C8-0CB8F10EF0FE" name="Lokal_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>FB0E44B5-4EEB-2891-2F38-265C44C9364D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB243A9E-E9BB-A45E-0ED4-9EC2B1EF9277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07841998-A438-5F83-73EC-D8BDA1AAE889" name="Lokal__IDX">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33A02A16-F4FD-A9A2-7FEE-159AF31F169D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AF66B463-9AE2-B8AC-D264-5D7D4CA4D781"/>
+<colUsage columnID="1DED3C3F-D195-0D15-15EB-6532B6A639D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88665B4B-4B27-36D7-7D02-D8BBE3B1E19E" name="Lokal_Adresa_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>33A02A16-F4FD-A9A2-7FEE-159AF31F169D</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF66B463-9AE2-B8AC-D264-5D7D4CA4D781"/>
+<colUsage columnID="1DED3C3F-D195-0D15-15EB-6532B6A639D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

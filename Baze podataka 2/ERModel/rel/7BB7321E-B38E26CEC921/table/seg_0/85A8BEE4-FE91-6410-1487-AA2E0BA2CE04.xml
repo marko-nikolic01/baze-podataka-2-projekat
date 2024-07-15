@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85A8BEE4-FE91-6410-1487-AA2E0BA2CE04" name="Prethodi">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdF" id="CA386744-6017-AEE6-A4A3-248E69D75C0C">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFA9BF8C-BBC4-02D3-A1CB-F6AA5D1028AE" referredColumn="A33E4A39-4003-E2C6-60BE-5B1903A0641C"/>
+</associations>
+</Column>
+<Column name="IdF1" id="3E8A350D-8DF7-5598-5EF4-731596F73166">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F23D7522-3191-3C71-F611-C31ACA30086F" referredColumn="A33E4A39-4003-E2C6-60BE-5B1903A0641C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4827D056-DEF3-3F47-13BF-987DB8E91227" name="Prethodi_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA386744-6017-AEE6-A4A3-248E69D75C0C"/>
+<colUsage columnID="3E8A350D-8DF7-5598-5EF4-731596F73166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBAB9850-DF4A-7B81-CD25-AD025A2EAA49" name="Prethodi_Film_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>2594F4E7-C925-222E-27A5-BBF906E4878C</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA386744-6017-AEE6-A4A3-248E69D75C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C4554DA-AE74-C465-75B0-E0F6E22DC291" name="Prethodi_Film_FKv1">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>2594F4E7-C925-222E-27A5-BBF906E4878C</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E8A350D-8DF7-5598-5EF4-731596F73166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

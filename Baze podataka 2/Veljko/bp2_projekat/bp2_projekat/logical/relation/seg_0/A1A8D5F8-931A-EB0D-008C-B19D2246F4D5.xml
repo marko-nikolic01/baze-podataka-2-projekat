@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odzava se" directorySegmentName="seg_0" id="A1A8D5F8-931A-EB0D-008C-B19D2246F4D5">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:14:30 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>FB0E44B5-4EEB-2891-2F38-265C44C9364D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B731F5BB-66C9-3B34-270D-2EDA5C000218</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA1BD491-FC35-41A0-5A41-6E085A544772</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

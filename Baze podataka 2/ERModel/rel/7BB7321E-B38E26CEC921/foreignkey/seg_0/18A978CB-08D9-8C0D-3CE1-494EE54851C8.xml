@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18A978CB-08D9-8C0D-3CE1-494EE54851C8" containerWithKeyObject="0CC75509-E75E-48C2-9EC2-93FACFD2338B" localFKIndex="AC9D0564-4933-2199-D262-4838B686367F" name="Projekcija_Sala_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>1DF832A0-4113-21F7-C3FB-79FFBCFF2B47</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<referredTableLongName>Sala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D42F704-4E1B-6B2B-7274-2D261E7EB103</referredTableID>
+<keyObject>52CD3628-2668-6273-73D6-8E0932620CB2</keyObject>
+<referredKeyID>52CD3628-2668-6273-73D6-8E0932620CB2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

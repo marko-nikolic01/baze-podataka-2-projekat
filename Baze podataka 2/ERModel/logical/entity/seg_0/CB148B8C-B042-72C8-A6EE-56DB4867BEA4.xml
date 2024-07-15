@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB148B8C-B042-72C8-A6EE-56DB4867BEA4" name="Projekcija">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:38:41 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DatVremProj" id="1874F799-6751-72C5-889F-114EB55DBE80">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:40:02 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naoc3DProj" id="92CE37B3-8483-A7AC-FB8A-60FF514EA255">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:40:49 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdS" id="56D23DEA-D7C2-F1A3-7F46-94180297734E">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:43:24 UTC</createdTime>
+<generatorID>1DF832A0-4113-21F7-C3FB-79FFBCFF2B47</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>875F1457-009E-CD98-3E6F-5CA056C38992</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdF" id="DCBE6E00-A109-9963-14F1-EE25FC38D336">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:57:01 UTC</createdTime>
+<generatorID>47F75295-7CEF-D6DD-DB09-FC6982A6C5FC</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>7A75D419-3F0D-C6D9-319C-9B2EDB93C27B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdLic" id="87CB1F96-8121-B930-A862-1C6644957F9D">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:57:01 UTC</createdTime>
+<generatorID>47F75295-7CEF-D6DD-DB09-FC6982A6C5FC</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<referedAttribute>057637E9-80CD-A0C2-D5CA-E977E046146A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F04FF268-9C65-97B3-4854-ECD64786F7DE" name="Projekcija PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:40:45 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1874F799-6751-72C5-889F-114EB55DBE80</attributeRef>
+<attributeRef>56D23DEA-D7C2-F1A3-7F46-94180297734E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

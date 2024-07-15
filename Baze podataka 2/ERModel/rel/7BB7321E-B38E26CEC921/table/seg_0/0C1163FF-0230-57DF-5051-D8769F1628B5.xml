@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C1163FF-0230-57DF-5051-D8769F1628B5" name="Odrzava">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProj" id="B0667929-8BDA-7BF0-EC8B-55CD013347F8">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70B7697B-C05C-C592-4EB3-028D3B1BD56F" referredColumn="546D3448-51B2-8F41-495F-F91398239BD9"/>
+</associations>
+</Column>
+<Column name="IdZap" id="A72DA8F1-DD7E-F48E-65DC-DB9A67EBD6AD">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E26E407-3182-B5AF-7BAE-6EEEC8CDA1EB" referredColumn="856BD3FC-EC94-803A-2E09-5866741AD641"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7D4CA7A-EAB5-C6F4-A538-0F9E2C058C11" name="Odrzava_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0667929-8BDA-7BF0-EC8B-55CD013347F8"/>
+<colUsage columnID="A72DA8F1-DD7E-F48E-65DC-DB9A67EBD6AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1CC3CF7-2420-9050-11FB-EBFA21A89D0C" name="Odrzava_Projektor_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>AEC1D686-6F2E-4913-A6D0-CD03C6B2EB3B</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0667929-8BDA-7BF0-EC8B-55CD013347F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03CFC6B4-E4F6-64A3-0A74-2BC3C0F39AE1" name="Odrzava_TehnickoOsoblje_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>AEC1D686-6F2E-4913-A6D0-CD03C6B2EB3B</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A72DA8F1-DD7E-F48E-65DC-DB9A67EBD6AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

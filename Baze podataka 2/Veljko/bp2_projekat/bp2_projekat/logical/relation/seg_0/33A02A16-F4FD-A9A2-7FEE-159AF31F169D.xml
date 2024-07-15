@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lociran" directorySegmentName="seg_0" id="33A02A16-F4FD-A9A2-7FEE-159AF31F169D">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:24:40 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>FB0E44B5-4EEB-2891-2F38-265C44C9364D</sourcePk>
+<targetPk>5493198B-8ACD-07F2-269C-91664B115E76</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B731F5BB-66C9-3B34-270D-2EDA5C000218</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1CF293F9-F127-A58A-C995-7449E5CBFC2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

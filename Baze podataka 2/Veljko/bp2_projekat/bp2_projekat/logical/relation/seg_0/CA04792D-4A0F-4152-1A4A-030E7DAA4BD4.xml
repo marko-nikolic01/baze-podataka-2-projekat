@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prisustvo na svirci" directorySegmentName="seg_0" id="CA04792D-4A0F-4152-1A4A-030E7DAA4BD4">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:19:57 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>CAA6045C-5C55-8740-B8F6-C4AC5DAD3276</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F65063E4-5701-1D14-B345-B5ABA55F2D7C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4B63F9B6-1192-C443-F166-DFA271097EBA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

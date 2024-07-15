@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1818A09-8F83-C933-3C99-CF71BA98480A" containerWithKeyObject="F7A9199F-D288-3AEB-E740-018A9A657C73" localFKIndex="1A5A0CDD-FA98-C528-7175-BE2BFDE47916" name="Svira_se_Repertoar_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>D492CA15-74EF-3B1B-3545-E0EF6429D0A0</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<referredTableLongName>Repertoar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A8548F0-E002-5776-9C67-9E2696876960</referredTableID>
+<keyObject>48BF07DE-7C75-07CE-8705-5226E28E668F</keyObject>
+<referredKeyID>48BF07DE-7C75-07CE-8705-5226E28E668F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

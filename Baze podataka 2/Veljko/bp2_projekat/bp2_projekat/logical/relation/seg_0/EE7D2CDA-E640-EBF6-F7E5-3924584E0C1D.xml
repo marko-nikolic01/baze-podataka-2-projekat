@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zakazuje" directorySegmentName="seg_0" id="EE7D2CDA-E640-EBF6-F7E5-3924584E0C1D">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 16:17:42 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<sourcePk>F05F4094-6F9E-967E-C362-051075A51A7A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FED1EDB5-84F5-D6C4-407F-68891CF160AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA1BD491-FC35-41A0-5A41-6E085A544772</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF7E1BD0-C733-2608-8FE7-1FF36F499BA7" name="Dobavlja">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdLic" id="9F6F42D4-E3A4-347A-4FC9-993AFA2802A9">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD8D14C-F4CB-5419-BDF2-8C215CDF9921" referredColumn="FAFD02DB-2ADF-740A-9259-F151F2EC05C7"/>
+</associations>
+</Column>
+<Column name="IdZap" id="66EA72D1-891D-6B05-D226-BC9132960014">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="148E7800-EB32-7837-55A1-DD716438BD2C" referredColumn="3C6C9C4B-3683-22DA-85B3-F1C3CB1DAF7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78D9947E-AF0A-6B7B-D84F-DDF8D7EE3DFC" name="Dobavlja_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6F42D4-E3A4-347A-4FC9-993AFA2802A9"/>
+<colUsage columnID="66EA72D1-891D-6B05-D226-BC9132960014"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9F940B8-7F66-577C-E31C-657E6C037C11" name="Dobavlja_Licenca_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>2121ADCA-14C6-B4A1-C4E8-7E5865322F3B</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6F42D4-E3A4-347A-4FC9-993AFA2802A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2D98600-3A50-167A-404F-23D680295FE8" name="Dobavlja_Menadzer_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>2121ADCA-14C6-B4A1-C4E8-7E5865322F3B</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66EA72D1-891D-6B05-D226-BC9132960014"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

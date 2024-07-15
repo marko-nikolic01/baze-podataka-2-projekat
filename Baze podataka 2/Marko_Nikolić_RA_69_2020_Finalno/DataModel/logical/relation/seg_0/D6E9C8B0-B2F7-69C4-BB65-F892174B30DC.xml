@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rezervise" directorySegmentName="seg_0" id="D6E9C8B0-B2F7-69C4-BB65-F892174B30DC">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:00:00 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<targetPk>80591DDF-63DB-586A-0327-08CC1175AFAB</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>99797D27-1700-642F-8C05-2B9B39DAE33D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>33A0B234-70E8-0CC4-AD0C-D1A0463CD684</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

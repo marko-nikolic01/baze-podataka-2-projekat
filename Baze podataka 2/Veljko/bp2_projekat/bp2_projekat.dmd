@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bp2_projekat" id="93A7F34F-D0F1-5FA0-EC16-BCA5795B2FFE" version="3.5">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 14:50:45 UTC</createdTime>
+<ownerDesignName>music_manager</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>93A7F34F-D0F1-5FA0-EC16-BCA5795B2FFE</designId>
+</OSDM_Design>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="216E5055-652A-B528-94C1-1BE72283F32D" name="Pripada">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdP" id="33257ED2-12BC-FA19-0D72-74D3FA0F74E8">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47C231A6-EB33-B5BF-A031-394B716C4FD8" referredColumn="496414CD-9995-88AE-163B-4CA091E2A71E"/>
+</associations>
+</Column>
+<Column name="IdZ" id="7692DA88-FCF4-E46C-B314-81658B7E75ED">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="773B5FE9-D5BB-1F98-0113-56FE12BA11BD" referredColumn="946C0A25-DBDF-1CB5-62F5-A342A31BC0E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF203C8C-EA22-CFB3-6118-8EC6EF79BE1E" name="Pripada_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33257ED2-12BC-FA19-0D72-74D3FA0F74E8"/>
+<colUsage columnID="7692DA88-FCF4-E46C-B314-81658B7E75ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="135703B1-575E-D6A5-9EB9-92233E89744F" name="Pripada_Pesma_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>BACF6228-F62C-55E9-11FC-5A08B36D11D1</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33257ED2-12BC-FA19-0D72-74D3FA0F74E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD61C28C-377C-4834-B412-BC55896CAD2F" name="Pripada_Zanr_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>BACF6228-F62C-55E9-11FC-5A08B36D11D1</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7692DA88-FCF4-E46C-B314-81658B7E75ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

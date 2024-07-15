@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F226B630-3B02-B4D0-65C3-A69643520238" name="Izvodi">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdIz" id="EA16FBD5-61D7-8586-04BD-558EAAB71ED8">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95F15426-404A-EEB8-E5B9-BCF40B21081A" referredColumn="CF7EB2AF-40E8-F45F-F72A-D88EB802982B"/>
+</associations>
+</Column>
+<Column name="IdP" id="C3C8F79B-9F89-7261-7139-5919EABBE4A2">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFC7F421-0A3B-C0AD-E4E0-D46438DC7578" referredColumn="496414CD-9995-88AE-163B-4CA091E2A71E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32F22FB9-970F-B842-A8C9-A0C5EF2C3D4D" name="Izvodi_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA16FBD5-61D7-8586-04BD-558EAAB71ED8"/>
+<colUsage columnID="C3C8F79B-9F89-7261-7139-5919EABBE4A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2A4DA97-E0B0-603C-D753-9EDEFA1B5441" name="Izvodi_Izvodjac_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>D638B5E4-4930-8ED5-6962-FC802797D504</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA16FBD5-61D7-8586-04BD-558EAAB71ED8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="493ABBEC-B286-1E99-8FD5-8019FD14205E" name="Izvodi_Pesma_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>D638B5E4-4930-8ED5-6962-FC802797D504</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3C8F79B-9F89-7261-7139-5919EABBE4A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

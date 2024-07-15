@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8222E5A9-F24B-D698-4D00-8E71BB1A8209" name="Online_svirka">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>F65063E4-5701-1D14-B345-B5ABA55F2D7C</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdS" id="4607864D-5885-5325-BA87-3C5D7AD36E92">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>4E8A167A-6A72-C9FF-55D7-ACA0983199D8</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45199D62-4063-C3FF-2F93-51B7FF8CF4A7" referredColumn="6DE909FA-DA48-B2DB-B070-1AE6C2F6BEF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BD9298F-A89E-904C-1FBA-C9DEF70F80C0" name="Online_svirka_PK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>CAA6045C-5C55-8740-B8F6-C4AC5DAD3276</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4607864D-5885-5325-BA87-3C5D7AD36E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6493DD14-45B2-1CBC-4CD7-2A58A373F610" name="Online_svirka_Svirka_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>2A3942D6-BBFC-8D5C-0199-BC4C1E976589</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4607864D-5885-5325-BA87-3C5D7AD36E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

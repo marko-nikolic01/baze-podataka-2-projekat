@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Izvodi" directorySegmentName="seg_0" id="D638B5E4-4930-8ED5-6962-FC802797D504">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-02 15:10:11 UTC</createdTime>
+<ownerDesignName>projekat2</ownerDesignName>
+<engineerTo>
+<item key="2DAD3C3A-74FF-B79F-244B-3C402CCA9266" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>495C6EAC-E596-E73E-E9CC-6E1DF5AA347B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E0573BB8-8A54-E894-9C0D-65332AF1FF47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="940960C8-14B0-B7BE-7C80-B9AF5A52BF3A" name="Licencira">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>CD5C36D2-D6B3-6850-1079-141BD529B653</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdF" id="60184F69-08E6-F1A9-0365-41106F1AD40B">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>7A75D419-3F0D-C6D9-319C-9B2EDB93C27B</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB8F1CA3-D695-800A-C0A2-EF42B9867A69" referredColumn="A33E4A39-4003-E2C6-60BE-5B1903A0641C"/>
+</associations>
+</Column>
+<Column name="IdLic" id="CB50C65A-DEDF-D999-2B0D-41403804921E">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>057637E9-80CD-A0C2-D5CA-E977E046146A</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0657B48B-9BF5-957A-84C2-196C3A828BC6" referredColumn="FAFD02DB-2ADF-740A-9259-F151F2EC05C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B15A590E-CA42-1F0C-373C-9B0270901303" name="Licencira_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>87B2549D-1BBF-4A16-823D-D3F5D74C47D9</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60184F69-08E6-F1A9-0365-41106F1AD40B"/>
+<colUsage columnID="CB50C65A-DEDF-D999-2B0D-41403804921E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E7A3428-D3F6-D8D0-19BE-D58C321F7A21" name="Licencira_Film_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>34679D07-A62E-148D-4916-C0A8FA0018C1</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60184F69-08E6-F1A9-0365-41106F1AD40B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4234202E-0A5D-87D4-8B1A-5BF554BCEB61" name="Licencira_Licenca_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:19 UTC</createdTime>
+<generatorID>5D18DDB6-BC51-377E-8D30-9DB57BDB84EE</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB50C65A-DEDF-D999-2B0D-41403804921E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Licencira2" directorySegmentName="seg_0" id="5D18DDB6-BC51-377E-8D30-9DB57BDB84EE">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 16:37:53 UTC</createdTime>
+<ownerDesignName>ERModel</ownerDesignName>
+<engineerTo>
+<item key="7BB7321E-0154-5634-A2CF-B38E26CEC921" value="true"/>
+</engineerTo>
+<targetPk>98A83987-3D4D-DEDE-579C-4FF9E2D5FC75</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CD5C36D2-D6B3-6850-1079-141BD529B653</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DE78D1C4-2EF9-81A9-DD1E-C48071D3D7AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

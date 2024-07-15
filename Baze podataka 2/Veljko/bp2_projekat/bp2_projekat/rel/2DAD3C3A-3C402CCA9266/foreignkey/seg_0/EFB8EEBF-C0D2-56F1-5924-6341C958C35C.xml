@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFB8EEBF-C0D2-56F1-5924-6341C958C35C" containerWithKeyObject="2FBEC64B-A177-0E05-0820-A46F47A2964A" localFKIndex="716A08F6-7A87-0D82-03A1-452B010FD588" name="Pozivnica_Online_svirka_FK">
+<createdBy>Veljko</createdBy>
+<createdTime>2024-01-15 16:16:55 UTC</createdTime>
+<generatorID>BDCC3EC7-0587-A2DF-8658-D205C3423D15</generatorID>
+<ownerDesignName>projekat2</ownerDesignName>
+<referredTableLongName>Online_svirka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8222E5A9-F24B-D698-4D00-8E71BB1A8209</referredTableID>
+<keyObject>0BD9298F-A89E-904C-1FBA-C9DEF70F80C0</keyObject>
+<referredKeyID>0BD9298F-A89E-904C-1FBA-C9DEF70F80C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

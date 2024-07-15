@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36A4027C-7CE0-B30B-96F4-0F24171252C6" name="Menadzer">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>734BC0D4-239F-83AB-4CE5-8268E7ED149D</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdZap" id="3C6C9C4B-3683-22DA-85B3-F1C3CB1DAF7D">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>0F4BF644-3514-A6F6-EA49-97FC5A0EE559</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90E57875-4AD7-E6F2-E662-357AA7065B71" referredColumn="EAE7434C-39CA-86E6-AA93-2819016343A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A1D1B03-445B-D871-475B-62187915625C" name="Menadzer_PK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>C818A3B9-C3F2-0577-914B-507F181EBBE6</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C6C9C4B-3683-22DA-85B3-F1C3CB1DAF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58431E63-23D4-6FCC-8905-596F54B1C3DB" name="Menadzer_Zaposleni_FK">
+<createdBy>Marko</createdBy>
+<createdTime>2024-01-15 17:21:18 UTC</createdTime>
+<generatorID>8A31E007-4CED-77AA-4F79-BE4FF836BD7C</generatorID>
+<ownerDesignName>ERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C6C9C4B-3683-22DA-85B3-F1C3CB1DAF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
